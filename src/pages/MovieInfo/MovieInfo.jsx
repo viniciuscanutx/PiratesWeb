@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { BsHeartFill } from "react-icons/bs";
 import './Movie.css';
-import Button from "../../components/Button/Button";
+import Button from "../../components/Button-Watch/Button";
 
 const Movie = () => {
   const { id } = useParams();
@@ -41,24 +41,23 @@ const Movie = () => {
 
   return (
     <>
-    <div className="poster">
-      <img src={movie.poster} alt="" />
-    <div className="movieinfo">
-      <h2>{movie.titulo}</h2>
-      <p>{movie.lancamento}</p>
-      <h3><BsHeartFill color="red"/>{movie.nota} / 10</h3>
-      <div className="overview">
-      <h4>Overview:</h4>
-      <p>{movie.sinopse}</p>
-      <div className="genre">
-      <h4>{movie.genero}</h4>
+      <div 
+        className="poster" 
+        style={{ backgroundImage: `url(${movie.poster})`}}>
+        <img src={movie.poster} alt="" />
+        <div className="movieinfo">
+          <h2>{movie.titulo}</h2>
+          <p>{movie.lancamento} - {movie.genero}</p>
+          <h3><BsHeartFill color="red" />{movie.nota} / 10</h3>
+          <div className="overview">
+            <h4>Overview:</h4>
+            <p>{movie.sinopse}</p>
+            <div className="btn">
+              <Button movieId={movie._id}>Watch</Button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="btn"> 
-      <Button movieId={movie._id}>Watch</Button>
-      </div> 
-      </div>
-    </div> 
-    </div>
     </>
   );
 }
