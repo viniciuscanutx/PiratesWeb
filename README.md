@@ -49,6 +49,8 @@ Depois de obtê-la, você pode copiar ou renomear o arquivo .env.example para .e
 
 ## Dependencias 
 
+As dependencias usadas no projeto são:
+
 ```bash
 npm install react-slick, react-router-dom, slick-carousel
 ```
@@ -63,6 +65,12 @@ npm run dev
 
 ## Screenshots
 
-<img src='https://raw.githubusercontent.com/viniciuscanutx/LocadoraReact/main/img/1.png' width=800px />
+<img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/1.jpg?token=GHSAT0AAAAAACW72ZTJILHOPOKK3TYJ2Y2SZXUMDVQ' width=800px />
 
-<img src='' width=800px />
+<img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/2.jpg?token=GHSAT0AAAAAACW72ZTIMR7DRPIENDMXRFKAZXUMDXQ' width=800px />
+
+<img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/3.jpg?token=GHSAT0AAAAAACW72ZTJYCKD4QG3HYVGK772ZXUMDYQ' width=800px />
+
+<img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/4.jpg?token=GHSAT0AAAAAACW72ZTINHFYXAYJ7SLWM422ZXUMD2A' width=800px />
+
+<img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/5.jpg?token=GHSAT0AAAAAACW72ZTISZMUDPCKBLI35D7KZXUMD3Q' width=800px />
