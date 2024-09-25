@@ -1,0 +1,112 @@
+.container .title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.title .query-text {
+    color: #BB342F;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 20px auto;
+    margin-left: 26%; 
+    transition: margin-left 0.3s ease;
+}
+
+.movies-container div {
+    width: 30%;
+    color: #fff;
+    margin-left: 1rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1a1a1aa2;
+    padding: 1rem;
+}
+
+.movies-container div img {
+    max-width: 100%;
+}
+
+.movies-container div img,
+.movies-container div p {
+    margin-bottom: 1rem;
+}
+
+.movies-container div h2 {
+    margin-bottom: 0.3rem;
+}
+
+.movies-container div svg {
+    color: #BB342F;
+}
+
+.movies-container div a {
+    background-color: #BB342F;
+    border: 2px solid #962b27;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 0.7rem 0.5rem;
+    font-size: 1.3rem;
+    align-items: center;
+    transition: 0.4s;
+    text-align: center;
+    font-weight: bold;
+}
+
+.movies-container div a:hover {
+    background-color: transparent;
+    color: #BB342F;
+}
+
+
+.movies-container {
+    transition: margin-left 0.3s ease;
+}
+
+#Sidebar.open ~ .movies-container {
+    margin-left: 250px; 
+}
+
+
+@media (max-width: 768px) {
+    .movies-container {
+        max-width: 80%;
+        margin-left: 50px; 
+    }
+
+    .movies-container div {
+        width: 48%; 
+        margin-left: 0; 
+    }
+
+    .menu-toggle {
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .movies-container {
+        margin-left: 43px;
+        padding: 1rem;
+    }
+
+    .movies-container div {
+        width: 100%; 
+        padding-left: 0; 
+    }
+
+    .menu-toggle {
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+}
