@@ -20,8 +20,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/:id" element={<Movie />} />
           <Route path="/player/:id" element={<Player />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/allmovies" element={<AllMovies />} />
-          <Route path="/allseries" element={<Allseries />} />
+          <Route path="/allmovies/" element={<AllMovies />} />
+          <Route path="/allseries/" element={<Allseries />} />
           <Route path="/genero/:genero" element={<Categories />} />
         </Route>
       </Routes>
