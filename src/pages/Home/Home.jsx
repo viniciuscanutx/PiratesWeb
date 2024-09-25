@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Top10 from '../../components/Top10/top10';
-import BannerSlider from "../../components/BannerSlider/bannerslider";
+import BannerSlider from "../../components/BannerSlider/BannerSlider";
 import './Home.css';
 
 const Home = () => {
