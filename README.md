@@ -65,12 +65,27 @@ npm run dev
 
 ## Screenshots
 
+<p align="center">
+    <strong>HomePage</strong>
+</p>
 <img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/1.jpg?token=GHSAT0AAAAAACW72ZTJILHOPOKK3TYJ2Y2SZXUMDVQ' width=800px />
 
+<p align="center">
+    <strong>HomePage</strong>
+</p>
 <img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/2.jpg?token=GHSAT0AAAAAACW72ZTIMR7DRPIENDMXRFKAZXUMDXQ' width=800px />
 
+<p align="center">
+    <strong>MovieInfo Page</strong>
+</p>
 <img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/3.jpg?token=GHSAT0AAAAAACW72ZTJYCKD4QG3HYVGK772ZXUMDYQ' width=800px />
 
+<p align="center">
+    <strong>Player!</strong>
+</p>
 <img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/4.jpg?token=GHSAT0AAAAAACW72ZTINHFYXAYJ7SLWM422ZXUMD2A' width=800px />
 
+<p align="center">
+    <strong>All Movies Page</strong>
+</p>
 <img src='https://raw.githubusercontent.com/viniciuscanutx/PiratesWeb/refs/heads/main/public/Screenshots/5.jpg?token=GHSAT0AAAAAACW72ZTISZMUDPCKBLI35D7KZXUMD3Q' width=800px />
