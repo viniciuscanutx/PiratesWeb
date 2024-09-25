@@ -1,17 +1,13 @@
 import { useState } from "react";
 import React from 'react';
-import { Link, useNavigate } from "react-router-dom";
-import { BiCameraMovie, BiSearchAlt2 } from "react-icons/bi";
+import { useNavigate } from "react-router-dom";
+import { BiSearchAlt2 } from "react-icons/bi";
 import './Navbar.css';
 
 const Navbar = () => {
-    const [navActive, setNavActive] = useState(false);
+    const [navActive] = useState(false);
     const [search, setSearch] = useState("");
     const navigate = useNavigate();
-
-    const toggleNav = () => {
-        setNavActive(!navActive);
-    };
 
     const handleSubmit = (e) => {
         e.preventDefault()
