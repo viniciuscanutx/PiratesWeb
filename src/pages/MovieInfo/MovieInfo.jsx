@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { BsHeartFill } from "react-icons/bs";
 import './Movie.css';
-import Button from "../../components/Button-Watch/Button";
+import Button from "../../components/Button/Button";
 
 const Movie = () => {
   const { id } = useParams();
